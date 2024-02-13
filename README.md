@@ -4,6 +4,7 @@ QuizApp est une application Android de quiz trivia qui permet aux utilisateurs d
 
 ## Fonctionnalités
 
+- Système d'authentification basé sur Firebase.
 - Affichage de questions triviales à partir d'une API en ligne.
 - Compte à rebours pour chaque question pour limiter le temps de réponse.
 - Possibilité de gagner des "limcoins" virtuels en répondant correctement à des questions.
