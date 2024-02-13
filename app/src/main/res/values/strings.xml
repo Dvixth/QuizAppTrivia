@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TriviaLim</string>
+    <string name="question_progress">Question %1$d / %2$d</string>
+    <string name="timer">Time: %1\$ds</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="_30_string">30</string>
+    <string name="in_what_year_did_the_united_states_host_the_fifa_world_cup_for_the_first_time__string">In what year did the United States host the FIFA World Cup for the first time?</string>
+    <string name="_7_10_string">7/10</string>
+    <string name="next_string">Next</string>
+    <string name="_1986_string">1986</string>
+    <string name="_1994_string">1994</string>
+    <string name="_2002_string">2002</string>
+    <string name="_2010_string">2010</string>
+    <string name="previous_string">Previous</string>
+    <string name="title_activity_defis">DefisActivity</string>
+</resources>

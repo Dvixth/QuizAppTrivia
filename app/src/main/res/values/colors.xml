@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFED7A</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="_bg__quiz_screen_ek2_color">#EFF0F3</color>
+    <color name="rectangle_1_color">#FFFFFF</color>
+    <color name="rectangle_7_color">#ABD1C6</color>
+    <color name="rectangle_6_color">#004643</color>
+    <color name="ellipse_2_color">#ffffff</color>
+    <color name="in_what_year_did_the_united_states_host_the_fifa_world_cup_for_the_first_time__color">#000000</color>
+
+
+</resources>

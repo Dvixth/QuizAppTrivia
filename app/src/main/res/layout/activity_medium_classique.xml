@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    tools:context=".MediumClassiqueActivity">
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/time"
+        android:fontFamily="@font/bukhari_script"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/LimCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="268dp"
+        android:drawableStart="@drawable/limcoin"
+        android:fontFamily="@font/bukhari_script"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bukhari_script"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="120dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/timerTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- GridLayout for Answer Buttons -->
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="70dp"
+        app:columnCount="2"
+        app:layout_constraintTop_toBottomOf="@id/questionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Answer Buttons -->
+        <Button
+            android:id="@+id/answerButton1"
+            android:layout_width="0dp"
+            android:fontFamily="@font/bukhari_script"
+            android:layout_height="wrap_content"
+            android:text="Réponse 1"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#cdd2ff"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/answerButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Réponse 2"
+            android:fontFamily="@font/bukhari_script"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#cdd2ff"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/answerButton3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Réponse 3"
+            android:fontFamily="@font/bukhari_script"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#cdd2ff"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/answerButton4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Réponse 4"
+            android:fontFamily="@font/bukhari_script"
+
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#cdd2ff"
+            app:layout_columnWeight="1"/>
+    </androidx.gridlayout.widget.GridLayout>
+
+    <!-- Progress TextView -->
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="52dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="0%"
+        android:fontFamily="@font/bukhari_script"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

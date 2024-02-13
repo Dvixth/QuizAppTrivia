@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- quiz_screen styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="NavigationViewTheme" parent="Theme.AppCompat.Light">
+		<item name="android:textAppearance">@style/NavigationViewTextAppearance</item>
+	</style>
+
+	<style name="NavigationViewTextAppearance">
+		<item name="android:fontFamily">@font/bukhari_script</item>
+	</style>
+
+
+</resources>
