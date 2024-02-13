@@ -26,7 +26,7 @@ Avant de lancer l'application, assurez-vous d'avoir les éléments suivants conf
 git clone https://github.com/votre-utilisateur/QuizApp.git
 ```
 ## Utilisation
-Lorsque vous lancez l'application, vous êtes accueilli par l'écran principal où vous pouvez sélectionner le niveau de difficulté du quiz. Une fois le niveau choisi, le quiz démarre avec une première question affichée à l'écran.
+Lorsque vous lancez l'application, vous êtes accueilli par l'écran principal où vous choisissez de crée un compte ou de vous connecter, une fois authentifier vous choisiez le mode de jeu que vous voulez (Classique(solo), ou Défi(multijoueur qui devrais venir prochainement) et de choisir une difficulté des questions) ou bien de voir le Leaderboard. 
 
 -  Création d'un compte
 -  Identification avec le compte crée
